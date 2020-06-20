@@ -1,0 +1,141 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #E5E5E5;
+}
+
+.screen {
+  position: relative;
+  width: 375px;
+  height: 835px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FAFAFA;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.statusbar {
+  width: 375px;
+  height: 44px;
+  background-color: #FAFAFA;
+}
+
+.time {
+  margin: 17px 0 0 33px;
+  position: relative;
+}
+
+.connections {
+  margin: 15px 0 0 228px;
+  position: absolute;
+}
+
+.close {
+position: absolute;
+margin: 20px 0 0 319px;
+cursor: pointer;
+}
+
+h1 {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+color: #000000;
+}
+
+.youneed {
+  margin: 60px 0 0 21px;
+}
+
+.ingrid {
+  width: 343px;
+  height: 60px;
+  margin: 29px 0 0 19px;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 11px;
+}
+
+.ingridnext {
+  width: 343px;
+  height: 60px;
+  margin: 17px 0 0 19px;
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 11px;
+}
+
+.throw {
+  width: 344px;
+  height: 54px;
+  margin: 48px 0 0 14px;
+  border: none;
+  border-radius: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 500;
+  color: #000000;
+  background: #F9DF8E;
+  outline: inherit;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.throw:hover {
+    color: #000000;
+    background: #FFD962;
+    transition: all 0.2s;
+  }
+
+  .checkbox input {
+  	position: absolute;
+  	opacity: 0;
+  	margin: 10px 0 0 7px;
+  }
+
+  .checkbox__text {
+  	position: relative;
+  	padding: 20px 0 0 50px;
+  	cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+
+    color: #000000;
+  }
+
+  .checkbox__text:before {
+	content: '';
+	position: absolute;
+	top: 20px;
+	left: 19px;
+	width: 15px;
+	height: 15px;
+	border: 3px solid #000000;
+	border-radius: 50%;
+	background: #FFF;
+}
+
+.checkbox__text:after{
+	content: '';
+	position: absolute;
+	top: 25px;
+	left: 24px;
+	width:11px;
+	height: 11px;
+	border-radius: 50%;
+	background: #F9DF8E;
+	opacity: 0;
+	transition: .2s;
+}
+
+.checkbox input:checked + .checkbox__text:after {
+	opacity: 1;
+}
